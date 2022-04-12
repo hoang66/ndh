@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table >
+    <td>
+        so tien
+    </td>
+    <td>
+        tien vao
+    </td>
+    <td>
+        tien ra
+    </td>
+    </tr>
+
+    <tr>
+        <td>
+            <form>
+                <input id="h1"></form>
+            </form>
+         </td>
+        <td>
+            <form>
+                <select id="h2">
+                <option value="23">vnd</option>
+                <option value="1">usd</option>
+                </select>
+            </form>
+        </td> <td>
+        <form>
+
+            <select id="h3">
+                <option value="1">usd</option>
+                <option value="23">vnd</option>
+            </select>
+        </form>
+    </td>
+    <td>
+        <button  value="" onclick="ok()">convert</button>
+    </td>
+    </tr>
+
+
+</table>
+
+</body>
+<script>
+    function ok() {
+        var a= document.getElementById('h1').value;
+        var b= document.getElementById('h2').value;
+        var c= document.getElementById('h3').value;
+        alert(a*(c/b));
+
+
+    }
+</script>
+
+
+
+</html>

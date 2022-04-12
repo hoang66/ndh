@@ -2,9 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <table>
+        <tr>
+            <td>
+                nhap so 1
+            </td>
+            <td>
+                <form>
+                    <input id="h1"name="name"type="number">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                nhap so 2
+            </td>
+            <td>
+                <select id="h2">
+
+                    <option   selected=”selected”> 1</option>
+                    <option >2</option>
+                    <option > 3</option>
+                </select>
+            </td>
+        </tr>
+        <tr >
+            <td >
+                tong
+            </td>
+            <td>
+                <form >
+                    <input id="h3"value name="name"type="number"/>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <form>
+    <button   onclick="ok()">submit</button>
+
+    </form>
 </head>
+
 <body>
-$END$
+
+
+
+
+        <script>
+
+   function ok() {
+     var a=  document.getElementById('h1').value;
+      var b= document.getElementById('h2').value;
+     // let c = a*b;
+      //alert (a.value*b.value)
+       //var a= document.getElementById('h1');
+       //var b= document.getElementById('h2');
+       //var c =a.value*b.value;
+       document.getElementById('h3').value=a*b;
+   }
+        </script>
+
+
+
 </body>
 </html>
+
+
