@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>vat ly</p>
+<form >
+    <input id="d1"value=""type="number">
+
+<p>hoa hoc</p>
+<input id="d2"value=""type="number">
+<p>sinh hoc</p>
+<input id="d3"value=""type="number">
+<p>diem trung binh</p>
+<input id="d4"value=""type="">
+<p>tong</p>
+<input id="d5"value=""type="">
+</form>
+<button onclick="oke()">tong</button>
+<button onclick="ok()">trung binh</button>
+
+</body>
+<script>
+    function ok() {
+           let ly = document.getElementById('d1').value;
+           let hoa = document.getElementById('d2').value;
+           let sinh = document.getElementById('d3').value;
+           let lyl= parseInt(ly);
+           let hoah = parseInt(hoa);
+           let sinhs= parseInt(sinh);
+           alert((lyl+hoah+sinhs)/3);
+    }
+</script>
+<script>
+    function oke() {
+        let ly = document.getElementById('d1').value;
+        let hoa = document.getElementById('d2').value;
+        let sinh = document.getElementById('d3').value;
+        let lyl= parseInt(ly);
+        let hoah = parseInt(hoa);
+        let sinhs= parseInt(sinh);
+        alert(lyl+hoah+sinhs);
+    }
+</script>
+</html>

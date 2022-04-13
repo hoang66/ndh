@@ -11,16 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="251f4db9-5698-4ac8-9839-e5551956e0ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/source.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tien te.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gff.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h.html" beforeDir="false" afterPath="$PROJECT_DIR$/h.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/hang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgh.html" beforeDir="false" afterPath="$PROJECT_DIR$/hgh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tff.html" beforeDir="false" afterPath="$PROJECT_DIR$/tff.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +64,7 @@
       <workItem from="1649220879750" duration="2734000" />
       <workItem from="1649229067843" duration="20740000" />
       <workItem from="1649322177163" duration="6311000" />
-      <workItem from="1649400286821" duration="22363000" />
+      <workItem from="1649400286821" duration="30423000" />
     </task>
     <servers />
   </component>
