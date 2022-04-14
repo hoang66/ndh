@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+    <td>
+<p>chieu cao</p>
+    </td>
+    <td>
+        <p>can nang</p>
+    </td>
+     <tr>
+    <td>
+<form>
+    <input id='can nang'value=""type="number">
+</form>
+    </td>
+    <td>
+        <form>
+            <input id='chieu cao' value=""type="number">
+        </form>
+    </td>
+</table>
+<button value=""onclick="ok()">submit</button>
+</body>
+<script>
+    function ok() {
+        var a = document.getElementById('can nang').value;
+        var b = document.getElementById('chieu cao').value;
+        var bmi = a/(b^2);
+
+
+        if (bmi < 18)
+           document.write("Underweight");
+       else if (bmi < 25.0)
+            document.write("Normal");
+        else if (bmi < 30.0)
+            document.write("Overweight");
+        else
+            document.write("Obese");
+    }
+</script>
+</html>
