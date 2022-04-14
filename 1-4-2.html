@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input id ="d1" type="number" >
+    <h2 id="r3">value</h2>
+    <button onclick="ok()">submit</button>
+</form>
+</body>
+<script>
+    function ok() {
+
+
+        let a = +document.getElementById("d1").value;
+
+           switch (a){
+           case 1:
+            case 4:
+            case 6:
+           //     a.innerHTML ='30 ngay';
+               alert("30 ngay");
+            break;
+           case 3||5||7||8||12:
+               document.write('31 ngay');
+            break;
+           case 2:
+               document.write('28 ngay');
+               break;
+        }
+
+
+
+    }
+</script>
+</html>
