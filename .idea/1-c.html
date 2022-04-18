@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<form>
+    <input id="h1"type="number">
+    <input id="h2"type="number">
+    <button onclick="ok()">subbit</button>
+</form>
+</body>
+<script>
+    function ok() {
+        let a= document.getElementById('h1').value;
+        let b= document.getElementById('h2').value;
+        for(a=1;a<b;a++){
+            alert(a+a++);
+        }
+
+    }
+</script>
+
+</html>
