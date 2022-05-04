@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    ten <input id="name"type="text">
+    <br>
+    tuoi<input id="h2"type="text">
+    <br>
+    gioi tinhs<input id="h3"type="text">
+    <br>
+    sdt<input id="h4"type="text">
+    <br>
+    mail<input id="h5"type="text">
+    <br>
+    <button onclick="add()">add</button>
+    <button onclick="saveEdit()">Edit Product</button>
+
+    <table id="h6"></table>
+</div>
+</body>
+<script>
+    class human{
+        ten;
+        tuoi;
+        gioitinh;
+        sdt;
+        email;
+        constructor(ten,tuoi,gioitinh,sdt,email) {
+            this.ten=ten;
+            this.tuoi=tuoi;
+            this.gioitinh=gioitinh;
+            this.sdt=sdt;
+            this.email=email;
+            this.say=function () {
+
+            }
+
+        }
+    }
+    let hocsinh=[new human("hoang",18,"nam",12314,"hoangnd")]
+   // console.log(hocsinh)
+    function add() {
+        let ten= document.getElementById('name').value;
+        let tuoi =document.getElementById('h2').value;
+        let gioitinh= document.getElementById('h3').value;
+        let sdt=document.getElementById('h4').value;
+        let email= document.getElementById('h5').value;
+        //console.log(ten,tuoi ,gioitinh,sdt,email)
+         hocsinh.push(new human(ten,tuoi,gioitinh,sdt,email))
+       //    console.log(hocsinh)
+        show();
+    }
+   function show() {
+let str="";
+       for(let i=0;i<hocsinh.length;i++){
+            str+= "<tr>"
+           str += `<td>${i + 1}</td>`
+           str += `<td>${hocsinh[i].ten}</td>`
+           str += `<td>${hocsinh[i].tuoi}</td>`
+           str += `<td>${hocsinh[i].gioitinh}</td>`
+           str += `<td>${hocsinh[i].sdt}</td>`
+           str += `<td>${hocsinh[i].email}</td>`
+
+           str += `<td><button onclick="showEdit(${i})">Edit</button></td>`
+           str += `<td><button onclick="deleteP(${i})">Delete</button></td>`
+            str+="</tr>"
+        }
+
+document.getElementById('h6').innerHTML=str;
+   }
+    let indexEdit = 0;
+
+    function showEdit(index) {
+        //document.getElementById('name').value = hocsinh[index];
+        //indexEdit = index;
+        document.getElementById('name').value = hocsinh[index].ten;
+        document.getElementById('h2').value = hocsinh[index].tuoi;
+        document.getElementById('h3').value = hocsinh[index].gioitinh;
+        document.getElementById('h4').value = hocsinh[index].sdt;
+        document.getElementById('h5').value = hocsinh[index].email;
+        indexEdit = index;
+    }
+
+    function saveEdit() {
+
+        let ten= document.getElementById('name').value;
+        let tuoi =document.getElementById('h2').value;
+        let gioitinh= document.getElementById('h3').value;
+        let sdt=document.getElementById('h4').value;
+        let email= document.getElementById('h5').value;
+         hocsinh[indexEdit] = new human(ten,tuoi,gioitinh,sdt,email);
+
+        show();
+        indexEdit = 0;
+    }
+
+    function deleteP(index) {
+        hocsinh.splice(index,1);
+        // products.splice(index, 1);
+        show();
+    }
+
+    show();
+</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+   const num=prompt();
+   const result = [num[0]];
+
+   for(let x=1; x<num.length; x++)
+   {
+       if((num[x-1]%2 === 0)&&(num[x]%2 === 0))
+       {
+           result.push('-', num[x]);
+       }
+       else
+       {
+           result.push(num[x]);
+       }
+   }
+   console.log(result.join(''));
+
+</script>
+</body>
+</html>

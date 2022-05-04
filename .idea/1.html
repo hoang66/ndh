@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./1.2.css">
+</head>
+<body>
+<div class="main">
+    <div id="header">
+        <div class="header_container">
+            <div class="header_content">
+                <div class="header_search">
+                    <div class="header_feature-logo">
+                        <a href="" class="header_logo-link">
+                            <svg version="1.1" viewBox="0 0 50 50" class="header-svg" style="width: 50px; height: 50px;">
+                                <path
+                                        pid="0"
+                                        d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67z"
+                                ></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header_input">
+                        <div class="header_input-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="header_search--umbrella" type="search" name="yourserach" id="" placeholder="Tìm kiếm">
+                        </div>
+                        <div  class="header_input-date">
+                            <i class="fa-solid fa-calendar"></i>
+                            <span>Ngày</span>
+                            <div class="header_input-date--calendar">
+                                <div class="date_calendar--before">
+                                    <div class="date_calendar--before-content">
+                                        <div class="calendar_becon--heading">
+                                            <i  class="calendar_becon--heading-icon fa-solid fa-arrow-left-long"></i>
+                                            <h2 class="calendar_becon--heading-title">April 2022</h2>
+                                        </div>
+                                        <table class="calendar_becon--day">
+                                            <tr>
+                                                <th class="calendar_becon--day-th" >Mon</th>
+                                                <th class="calendar_becon--day-th">Tue</th>
+                                                <th class="calendar_becon--day-th">Wed</th>
+                                                <th class="calendar_becon--day-th">Thu</th>
+                                                <th class="calendar_becon--day-th">Fri</th>
+                                                <th class="calendar_becon--day-th">Sat</th>
+                                                <th class="calendar_becon--day-th">Sun</th>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">1</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">2</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">3</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn">4</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">5</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">6</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">7</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">8</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">9</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">10</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn">11</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">12</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">13</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">14</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">15</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">16</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">17</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn">18</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">19</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">20</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">21</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">22</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">23</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">24</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn">25</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">26</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">27</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">28</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">29</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">30</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">31</button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="date_calendar--after">
+                                    <div class="date_calendar--after-content">
+                                        <div class="calender_after--heading">
+                                            <h2 class="calendar_after--heading-title">May 2022</h2>
+                                            <i  class="calendar_after--heading-icon fa-solid fa-arrow-right"></i>
+                                        </div>
+                                        <table class=" calendar_after--day">
+                                            <tr>
+                                                <th class="calendar_becon--day-th">Mon</th>
+                                                <th class="calendar_becon--day-th">Tue</th>
+                                                <th class="calendar_becon--day-th">Wed</th>
+                                                <th class="calendar_becon--day-th">Thu</th>
+                                                <th class="calendar_becon--day-th">Fri</th>
+                                                <th class="calendar_becon--day-th">Sat</th>
+                                                <th class="calendar_becon--day-th">Sun</th>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">1</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn">2</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">3</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">4</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">5</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">6</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">7</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">8</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn">9</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">10</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">11</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">12</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">13</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">14</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">15</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn">16</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">17</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">18</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">19</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">20</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">21</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">22</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn">23</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">24</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">25</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">26</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">27</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">28</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">29</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="calendar_day-btn">30</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn">31</button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                                <td>
+                                                    <button class="calendar_day-btn"></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="header_input-date--calendar-footer">
+                                    <h4 class="date--calendar-footer-delete">Xóa</h4>
+                                    <h4 class="date--calendar-footer-apply">Áp dụng</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_input-quantity">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Số khách</span>
+                            <div class="header_input-quantity--form">
+                                <div class="header_input-quantity--form-content">
+                                    <div class="quantity--form-item">
+                                        <h4 class="quantity--form-item-title">Người lớn</h4>
+                                        <div class="quantity--form-item-change">
+
+                                        </div>
+                                    </div>
+                                    <div class="quantity--form-item">
+                                        <h4 class="quantity--form-item-title">Trẻ em</h4>
+                                        <div class="quantity--form-item-change">
+
+                                        </div>
+                                    </div>
+                                    <div class="quantity--form-item">
+                                        <h4 class="quantity--form-item-title">Trẻ sơ sinh</h4>
+                                        <div class="quantity--form-item-change">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_input--btnSerach">
+                            <li class="category-list-item">
+                                <a href="javascript:void(0);" class="category-item--link">Vị trí rạp trên map</a>
+                            </li>
+                            <li class="category-list-item">
+                                <a href="javascript:void(0);" class="category-item--link">Chương trình ưu đãi</a>
+                            </li>
+                            <li class="category-list-item" id="history-buyTicket">
+                                <a href="javascript:void(0);" class="category-item--link">Lịch sử mua vé</a>
+                            </li>
+                            <li class="category-list-item">
+                                <a href="javascript:void(0);" class="category-item--link">Dịch vụ</a>
+                            </li>
+                            </ul>
+                            </nav>
+                            <img src="" alt=""style="width: 100%;border-radius: 3px" class="first-adver__content-img">
+                            <img src="" alt="" style="width: 100%;border-radius: 3px" class="second-adver__content-img">
+                            <img src="" alt="" style="width: 100%;border-radius: 3px" class="third-adver__content-img">
+                        </div>
+                    </div>
+                    <div class="grid_colum-10-6">
+                        <div class="show-product-main">
+                            <div class="nav_title-product">
+                                <div class="nav_title-product--content">
+                                    <button class="nav-product--btn">
+                                        <a href="" class="nav-product--btn-link">Phim mới</a>
+                                    </button>
+                                    <button class="nav-product--btn">
+                                        <a href="" class="nav-product--btn-link">Phim lẻ</a>
+                                    </button>
+                                    <button class="nav-product--btn">
+                                        <a href="" class="nav-product--btn-link">Phim bộ</a>
+                                    </button>
+                                    <button class="nav-product--btn">
+                                        <a href="" class="nav-product--btn-link">Thể loại</a>
+                                    </button>
+                                    <button class="nav-product--btn">
+                                        <a href="" class="nav-product--btn-link">Quốc gia</a>
+                                    </button>
+                                    <button class="nav-product--btn">
+                                        <a href="" class="nav-product--btn-link">Trailer</a>
+                                    </button>
+                                    <button class="nav-product--btn">
+                                        <a href="" class="nav-product--btn-link">Nổi bật</a>
+                                    </button>
+                                </div>
+                                <div class="nav_title-product-transfer">
+                                    <i class=" product-transfer--icon-left fa-solid fa-angle-left"></i>
+                                    <span>1 / 14</span>
+                                    <i class=" product-transfer--icon-right  fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="grid_row" id="display">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal-signIn">
+        <div class="modal__layout"></div>
+        <div class="modal__body">
+            <!--              Form danng nhap -->
+            <div class="modal__body--signIn">
+                <div class="content_signIn-form">
+                    <div class="signIn-form-byAccount">
+                        <div class="signIn-form-byAccount--content">
+                            <h2 class="signIn-form-byAccount--title">
+                                Create Your Account
+                            </h2>
+                            <button class="signIn-faceBook">
+                                <i class=" signIn-faceBook--icon fa-brands fa-facebook-f"></i>
+                                <a href="" class="signIn-faceBook--link">Sign in with Facebook</a>
+                            </button>
+                            <button class="signIn-Twitter">
+                                <i class="sign-Twitter--icon fa-brands fa-twitter"></i>
+                                <a href="" class="signIn-Twitter--link">Sign in with Twitter</a>
+                            </button>
+                            <button class="signIn-Google">
+                                <i class="sign-Google--icon fa-brands fa-google"></i>
+                                <a href="" class="signIn-Google--link">Sign in with Google</a>
+                            </button>
+                            <button class="signIn-Gmail">
+                                <i class="sign-Gmail--icon fa-solid fa-envelope"></i>
+                                <a href="" class="signIn-Gmail--link">Sign in with Google</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="signIn-form-byClassical">
+                        <div class="signIn-form-byClassical-content">
+                            <div class="signIn-form-byClassical-title">
+                                Or use the classical way
+                            </div>
+                            <div class="signIn-form-byClassical--userName">
+                                <input type="text"  name="" id="byClassical--userName" placeholder="username">
+                                <i class="byClassical--userName-icon fa-solid fa-user"></i>
+                            </div>
+                            <div class="signIn-form-byClassical--email">
+                                <input type="email"  name="" id="byClassical--email" placeholder="email">
+                                <i class="byClassical--email-icon fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="signIn-form-byClassical-password">
+                                <input type="password"  name="" id="byClassical--password" placeholder="password">
+                                <i class="byClassical--password-icon  fa-solid fa-lock"></i>
+                            </div>
+                            <div class="signIn-form-byClassical-submit">
+                                <button type="submit" class="byClassical-submit-btn">SIGN UP</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
+<script src="13.js"></script>

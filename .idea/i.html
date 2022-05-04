@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function inputIndex() {
+        let b = prompt("nhap so phan tu ban muon nhap :");
+        let array = Array();
+        for (let i = 0; i < b; i++) {
+            array[i] = prompt('nhap phan tu [' + i + '] :')
+        }
+        let a =prompt("nhap mang vi tri ma ban muon xoa :");
+        if(a<array.length){
+            tryRemoveFromArray(a, array)
+        }
+        else{
+            alert('vi tri ban xoa k co trong mang ')
+        }
+    }
+    function tryRemoveFromArray(index,subArray){
+        for(let j = index; j <subArray.length - 1; j++){
+            subArray[j] = subArray[j+1];
+        }
+        --subArray.length
+        console.log('mang sau khi xoa la :'+subArray)
+    }
+    inputIndex();
+</script>
+</html>

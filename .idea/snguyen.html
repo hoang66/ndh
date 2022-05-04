@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+
+    function ok() {
+        let a = prompt("so luong");
+        let array = Array();
+        for (i = 0; i < a; i++) {
+            array[i] = prompt("vi tri" + i);
+        }
+
+        let c = prompt("muon xoa");
+
+        if (c < array.length) {
+
+            fomar = (c, array);
+        }
+        else {
+            alert("sai");
+
+        }
+ }
+ function fomar(ma,mar) {
+     for(let j=ma;j<mar.length-1;j++){
+         mar[j]=mar[j+1];
+
+     }
+     --mar.length
+
+     console.log(mar);
+
+
+ }
+
+    ok();
+</script>
+</html>

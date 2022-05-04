@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function run(n) {
+        if(n<2){
+            return false;
+        }
+       // let n = true;
+        for (let i = 2; i < (n / 2); i++) {
+            if (n%i==0){
+                return false;
+            }
+
+        }
+        return true;
+    }
+    function dis(num) {
+        let count = 0
+        while (count < 10) {
+            if (run(num) == true) {
+document.write(num);
+document.write("<br>");
+count++;
+            }
+            num++
+        }
+    }
+//dis(10)
+</script>
+</html>
