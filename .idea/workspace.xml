@@ -11,49 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="251f4db9-5698-4ac8-9839-e5551956e0ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/1.2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/1.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/19-4-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/19-4-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/19-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ban co.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/cro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gam moi/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gam moi/bird.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gam moi/fg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gam moi/html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gam moi/jv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gam moi/pipeNorth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gam moi/pipeSouth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hamf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/i.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/may tinh bo tui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nnjn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/oop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/snguyen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/snt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/so nguyen to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/them xoa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tien te.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tim gia tri nho nhat cua mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tu dien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/xay dung lop hinhf tronf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ôp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/bird.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/hinhnenchinh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/ongduoi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/ongtren.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +75,7 @@
       <workItem from="1649229067843" duration="20740000" />
       <workItem from="1649322177163" duration="6311000" />
       <workItem from="1649400286821" duration="146976000" />
-      <workItem from="1650924168410" duration="45372000" />
+      <workItem from="1650924168410" duration="45995000" />
     </task>
     <servers />
   </component>
