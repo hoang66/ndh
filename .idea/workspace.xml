@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="251f4db9-5698-4ac8-9839-e5551956e0ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bai thi.html" afterDir="false" />
-    </list>
+    <list default="true" id="251f4db9-5698-4ac8-9839-e5551956e0ca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +73,7 @@
       <workItem from="1649229067843" duration="20740000" />
       <workItem from="1649322177163" duration="6311000" />
       <workItem from="1649400286821" duration="146976000" />
-      <workItem from="1650924168410" duration="59976000" />
+      <workItem from="1650924168410" duration="60254000" />
     </task>
     <servers />
   </component>
